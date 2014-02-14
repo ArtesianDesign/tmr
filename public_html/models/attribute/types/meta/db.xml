@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+
+	<table name="atMeta">
+		<field name="avID" type="I" size="10">
+			<AUTOINCREMENT/>
+			<KEY/>
+			<UNSIGNED />
+		</field>
+		<field name="settings" type="X2" />
+	</table>
+
+	<table name="atMetaKeys">
+		<field name="kID" type="I" size="10">
+			<AUTOINCREMENT/>
+			<KEY/>
+			<UNSIGNED />
+		</field>
+		<field name="akID" type="I" size="10" />
+		<field name="avID" type="I" size="10" />
+		<field name="name" type="X2" />
+		<field name="pos" type="I" size="10" />
+	</table>
+
+	<table name="atMetaValues">
+		<field name="vID" type="I" size="10">
+			<AUTOINCREMENT/>
+			<KEY/>
+			<UNSIGNED />
+		</field>
+		<field name="akID" type="I" size="10" />
+		<field name="kID" type="I" size="10" />
+		<field name="avID" type="I" size="10" />
+		<field name="value" type="X2" />
+	</table>
+
+</schema>

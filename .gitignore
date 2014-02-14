@@ -1,0 +1,49 @@
+#style.min.css
+style.unprefixed.css
+style.prefixed.css
+
+.DS_Store
+
+## Concrete5
+public_html/files*
+public_html/system
+public_html/config/site.php
+
+## SublimeText
+sftp-config*.json
+
+## Node.js
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+pids
+logs
+results
+npm-debug.log
+node_modules
+
+## Bower
+src/components
+
+## Sass
+.sass-cache
+
+## OS X
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/

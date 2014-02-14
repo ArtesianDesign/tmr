@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<schema version="0.3">
+	<table name="btParentArea">
+		<field name="bID" type="I">
+			<key />
+			<unsigned />
+		</field>
+		<field name="ancestor" type="I"></field>
+		<field name="tarHandle" type="C" size="255"></field>
+	</table>
+</schema>

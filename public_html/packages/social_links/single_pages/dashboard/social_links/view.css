@@ -1,0 +1,37 @@
+.links table {
+	width: 100%;
+	border: 0;
+}
+.links table th {
+	text-align: left;
+}
+.links td.active,
+.links td.sort,
+.links td.remove {
+	width: 20px;
+	text-align: center;
+}
+.links td.name {
+	width: 150px;
+}
+.links td,
+.links th {
+	padding: 5px;
+	border: 0;
+	vertical-align: center;
+}
+.links tbody tr:hover {
+	background-color: #F7F7F7;
+}
+.links .sort {
+	cursor: move;
+}
+.links .remove a {
+	float: none;
+}
+div.ccm-dashboard-inner {
+	margin-top: 0;
+}
+#add-link {
+	margin-bottom: 0;
+}

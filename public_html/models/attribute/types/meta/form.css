@@ -1,0 +1,8 @@
+.meta-attribute {}
+.meta-attribute table td input[type="text"] {
+	width: 93%;
+}
+.meta-attribute table tr.data td.key:hover,
+.meta-attribute table tr.data td.value:hover {
+	cursor: move;
+}

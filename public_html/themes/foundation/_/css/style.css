@@ -1,0 +1,87 @@
+/*
+ * Daniel Peterson for Artesian Design
+ * © 2012 Artesian Desgin Inc
+ */ 
+
+body {
+}
+
+/*****
+ * Main Navigation 
+ *****/
+#main_navigation {
+}
+
+ul.nav {
+  display: inline-block;
+  margin: 0;
+  list-style: none;
+}
+
+ul.nav li {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+ul.nav li a {
+  display: block;
+  padding: 0 15px 1px;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 49px;
+}
+
+#header_area {
+  
+}
+
+/* 
+ * Typoraphy 
+ *****/
+h1, h2, h3, h4 {
+  line-height: 101%;
+  font-weight: normal;
+}
+
+h1 {
+  font-size: 40px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 22px;
+}
+h4 {
+  font-size: 16px;
+}
+
+
+/* 
+ * Fix Foundation Framework conflicts with edit mode 
+ *****/
+body.edit-mode {
+  position: static;
+}
+
+body.toolbar-visible .row {
+  margin-left: auto;
+}
+
+body.edit-mode div#ccm-highlighter {
+/*     margin-top:-49px; */
+    z-index: 1000;
+}
+
+body.edit-mode .ccm-ui *,
+body.edit-mode .ccm-ui *:before,
+body.edit-mode .ccm-ui *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+div.ccm-add-block, div.ccm-add-block-global {
+    line-height: 1.5;
+}

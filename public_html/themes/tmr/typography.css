@@ -1,0 +1,12 @@
+/*
+ * Styles specifically used for WYSIWYG editor. 
+ * NOT for front-end/public site
+ */
+
+@import url("_/css/fonts.css");
+@import url("_/css/style.css");
+
+body, p, ul, ol {
+  font-size: 14px;
+}
+
